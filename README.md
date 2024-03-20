@@ -4,11 +4,11 @@
 
 #Exemplo (Soma)
 
-'''
+```
 num = input('Digite um número:')
 num1 = input('Digite outro número:')
 num = int(num)
 num1 = int(num1)
 
 print(num + num1)
-'''
+```
