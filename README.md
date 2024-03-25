@@ -17,7 +17,7 @@ print(num + num1)
 # Tópico 02 - Estruturas de seleção (IF)
 
 ### Exemplo:
-### 1. Informe se uma pessoa tem o mesmo nome que você
+### Informe se uma pessoa tem o mesmo nome que você
 ```
 nome_pessoa = input("Informe o nome da pessoa: ")
 seu_nome = input("Informe seu nome: ")
@@ -29,6 +29,29 @@ else:
 ``` 
 
 # Tópico 03 - Estruturas de seleção múltiplas (ELIF)
+
+### Exemplo:
+### Implemente um seletor de canais para informar que canal a pessoa está assistindo, sendo:
+```
+print(
+    "Canais disponiveis: [2]Band [4]SBT [6]CNT [7]Record [9]Cultura [12]Globo")
+select = int(input("Selecione um canal: "))
+
+if (select == 2):
+  print("Você está assistindo [2]Band")
+elif (select == 4):
+  print("Você está assistindo [4]SBT")
+elif (select == 6):
+  print("Você está assistindo [6]CNT")
+elif (select == 7):
+  print("Você está assistindo [7]Record")
+elif (select == 9):
+  print("Você está assistindo [9]Cultura")
+elif (select == 12):
+  print("Você está assistindo [12]Globo")
+else:
+  print("Canal não encontrado")
+```
 
 # Tópico 04 - Estruturas de repetição (While)
 
